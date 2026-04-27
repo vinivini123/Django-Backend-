@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-rxnol!ch8z3^(yy&qsk)e+83zed$c8*7=j^t(qp)h_-(3&c=(p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "django-backend-fcwy.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
